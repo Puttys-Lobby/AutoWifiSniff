@@ -1,0 +1,28 @@
+# AutoWiFiSniff Pro v2.0 – Python dependencies
+# Install: pip install -r requirements.txt
+# System deps: sudo apt install tshark aircrack-ng libpcap-dev wireless-tools iw
+
+# Core packet capture & analysis
+scapy>=2.5.0
+pyshark>=0.6
+
+# Terminal UI
+rich>=13.0.0
+colorama>=0.4.6
+
+# Data / ML
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Network interface detection
+netifaces>=0.11.0
+
+# PDF reporting
+reportlab>=4.0.0
+
+# Charts for PDF
+matplotlib>=3.7.0
+
+# Progress / extras
+tqdm>=4.65.0
